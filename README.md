@@ -1,10 +1,9 @@
-#  This project is made under 
+#  This project is made under OPEND/I HACKATHON
 
 ![Screenshot from 2023-12-22 14-02-07](https://github.com/Vikash-8090-Yadav/TreasureGrant/assets/85225156/73186902-2b66-4376-b36d-3714241fd3ac)
 
 
-
-# Data Dao Club
+# TREASURE Dao Club
 
 Trasure Dao Club allows you to manage investment clubs, and to spread access to participate in investment funds to anyone, decentralized, agile, and without bureaucracy.Implementing a comprehensive on-chain governance system allows DataDAO members to create and vote on proposals, covering aspects such as member management, dataset storage and distribution, and token distribution. This ensures a democratic and transparent decision-making process within the DAO.
 
