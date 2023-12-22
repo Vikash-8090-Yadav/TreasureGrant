@@ -184,9 +184,8 @@ async function leaveClub() {
         const signedTx = await web3.eth.accounts.signTransaction(
           {
             from: my_wallet[0].address,
-            gasLimit: "21000000",
-            maxFeePerGas: "300000000",
-            maxPriorityFeePerGas: "100000000",
+            gasPrice: "20000000000",
+            gas: "2000000",
     to: contractPublic.options.address,
     data: encodedABI,
             //value: amountAE 
@@ -281,9 +280,8 @@ function Club() {
                 const signedTx = await web3.eth.accounts.signTransaction(
                   {
                     from: my_wallet[0].address,
-                    gasLimit: "21000000",
-                    maxFeePerGas: "300000000",
-                    maxPriorityFeePerGas: "100000000",
+                    gasPrice: "20000000000",
+                    gas: "2000000",
             to: contractPublic.options.address,
             data: encodedABI,
                     //value: amountAE 
@@ -294,6 +292,7 @@ function Club() {
         //
             
                 const clubId = await web3.eth.sendSignedTransaction(signedTx.rawTransaction);
+                toast.success("Club Joined");
                 console.log('Transaction ReccreateProposaleipt:', clubId);
               } catch (error) {
                 console.error('Error sending signed transaction:', error);
@@ -323,7 +322,6 @@ function Club() {
       $('.errorJoinLeaveClub').css('display','none');
       $('.successJoinLeaveClub').css("display","block");
       $('.successJoinLeaveClub').text("You have joined the club successfully");
-      window.location.reload()
     } else {
       $('.successJoinLeaveClub').css('display','none');
       $('.errorJoinLeaveClub').css("display","block");
