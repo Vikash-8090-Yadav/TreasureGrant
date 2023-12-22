@@ -67,8 +67,7 @@ function saveWallet() {
               <ul>
                 <li><b>Create investment clubs.</b></li> 
                 <li><b>Join and contribute to investment clubs.</b></li> 
-                <li><b>Create, vote, and execute proposals. on Chain</b></li> 
-                <li><b>Verify data (PODSI), Deal status, storage status, Register for Job</b></li> 
+                <li><b>Create, vote, and execute proposals. on Chain</b></li>
               </ul>
             </div>
             <form className="user">
