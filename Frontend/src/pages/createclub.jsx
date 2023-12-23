@@ -122,7 +122,7 @@ function CreateClub() {
         console.log("The cid is ",response.data.Hash);
 
         const cid1 = response.data.Hash;
-        await register_job(cid1);
+        // await register_job(cid1);
 
 
       try

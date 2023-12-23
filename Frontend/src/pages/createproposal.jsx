@@ -517,7 +517,7 @@ onChange={(e) => setDestination(e.target.value)}
                       <br />
                       Your password:{" "}
                       <input
-                        type="text"
+                        type="password"
                         id="trx_password"
                         className="form-control form-control-user"
                         value={Password}

@@ -131,7 +131,7 @@ async function runProposal(event) {
                 false
               );
               var clubId = await web3.eth.sendSignedTransaction(signedTx.rawTransaction);
-              const polygonScanlink = `https://sepolia.etherscan.io/en/tx/${clubId.transactionHash}`
+              const polygonScanlink = `https://sepolia.etherscan.io/tx/${clubId.transactionHash}`
               toast.success(<a target="_blank" href={polygonScanlink}>Transaction Completed, Click to view transaction</a>, {
                 position: "top-right",
                 autoClose: 18000,
