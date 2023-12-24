@@ -9,6 +9,13 @@ Trasure Dao Club allows you to manage investment clubs, and to spread access to 
 
 <br>
 
+### It solves Challenge 1 On-chain Query Execution for Next-Gen Blockchain and I built this 
+
+Decentralized Autonomous Organizations (DAOs): DAOs operate on smart contracts and rely heavily on on-chain data. Enhanced on-chain query abilities could enable more sophisticated governance mechanisms, more transparent decision-making processes, and improve the overall efficiency of DAO operations.
+
+
+
+
   
 ## 📋 Table of Contents
 
